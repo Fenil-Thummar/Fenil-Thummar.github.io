@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ref{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    background: #000;
+    height: 30%;
+}
+ul{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul li{
+    position: relative;
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+
+}
+ul li a{
+    
+    text-decoration: none;
+}
+ul li a .fa{
+    
+    margin-right: 50px;
+    font-size: 6rem;
+    color: #222;
+
+
+}
+ul li::before{
+    font-family: fontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 6rem;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    
+}
+ul li:nth-child(1)::before{
+    content: '\f16a';
+    color: red;
+    border-bottom: 4px solid red;
+}
+ul li:nth-child(2)::before{
+    content: '\f232';
+     color : #25d366;
+    border-bottom: 4px solid #25d366;
+}
+ul li:nth-child(3)::before{
+    content: '\f099';
+    color: #1da1f2;
+    border-bottom: 4px solid  #1da1f2;
+}
+ul li:hover::before{
+    height: 100%;
+}
+.roro,.mappp{
+    display: flex;
+    font-size: 45px;
+    background-image: linear-gradient(to right, darkblue , white);
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    font-weight: 580;
+    padding: 10px;
+}
+

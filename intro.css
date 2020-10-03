@@ -1,0 +1,272 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+   top: 0;
+   left: 0; 
+   right: 0;
+   bottom: 0;
+   background-color: white;
+}
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0; 
+    right: 0;
+    height: 97px;
+
+    display: flex;
+    background-color:#000000d9;
+    z-index: 1;
+}
+.logo{
+    height: 85px;
+    width: 123px;
+    display: inline-block;
+    margin-left: 69px;
+    margin-top: 10px;
+    overflow: hidden
+} 
+.tabs{
+    padding: 22px;
+    padding-top: 40px;
+    padding-left: 67px;
+    width: 710px;
+}
+.tabs .bar1{
+    font-size: 19px;
+    margin-right: 45px;
+}
+.tabs a{
+    text-decoration: none;
+    color: lightgray;
+
+}
+.tabs a:hover{
+    color: rgb(54, 111, 165);
+    
+}
+.side{
+    padding-right: 68px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: -8px;
+    padding-left: 104px;
+    font-size: 20px;
+    width: 405px;
+}
+.dis{
+    cursor: pointer;
+}
+.side .ele{
+    margin: 11px;
+}
+.side .element-1{
+    font-size: 16px;
+    text-decoration: none;
+    color: lightgray;
+}
+.side .element-1 .btn i{
+    font-size: 15px;
+
+}
+.side a{
+    text-decoration: none;
+}
+.side a:hover{
+    color: rgb(113, 113, 233);
+}
+.element-4{
+    color: lightgray;
+}
+.element-4:hover{
+    color: red;
+}
+.side .element-2 .btn{
+    color: white;
+    outline: none;
+    background-color: transparent;
+    padding: 4px 4px;
+    cursor: pointer;
+}
+.side .element-2 .btn:hover{
+    background-color: rgb(113, 113, 233);
+    transition-duration: 0.8s;
+    
+}
+.side .element-3 .btn:hover{
+    background-color: rgb(113, 113, 233);
+    transition-duration: 0.8s;
+}
+.side .element-3 .btn{
+    color: white;
+    outline: none;
+    background-color: transparent;
+    outline: none;
+    
+    padding: 4px 4px;
+    cursor: pointer;
+}
+.corona{
+    background-color: lightgray;
+    position: absolute;
+    z-index: -1;   
+    padding-bottom: 35px;
+}
+.corona h2{
+    margin-top: 137.92px;
+    padding-left: 202px;
+    font-size: 15px;
+    margin-bottom: 5.45px;
+    
+}
+.corona a{
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 204px;
+}
+.corona button {
+    display: flex;
+    position: absolute;
+    margin-left: 1366px;
+    margin-top: 125px; 
+    cursor: pointer;
+}
+.container{
+    /* position: absolute; */
+   max-width: 100%;
+   margin: 0 auto;
+   max-height: 500px;
+
+}
+.parallax{
+    position: absolute;
+    background-image: url("1.jpg");
+    min-height: 670px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    width: 100%;
+    font-weight: 500;
+    
+}
+.tr{
+    font-size: 65px;
+    top: 200px;
+    position: relative;
+    color: white;
+    font-weight: 100;
+    padding-left: 274px;
+    animation: pulse 1.8s ;
+    
+
+}
+@keyframes pulse {
+    0% {
+        margin-top: 163px;
+        opacity: 0;
+    }
+    /* 50%{
+        opacity: 0.4;
+    } */
+    100% {
+        margin-top: 0px;
+        opacity: 2;
+    }
+}
+.tr .sub{
+    font-size: 20px;
+    padding-left: 99px;
+}
+.tr button{
+   background-color:#ffffff78;
+   margin-left: 378px;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   transition-delay: 0.1s;
+
+}
+.tr button:hover{
+    background-color:#000000a8;
+    color: white;
+
+}
+.lo{
+    margin-top: 800px;
+}
+.grid{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 653px;
+    padding: 24px;
+    align-items: center;
+}
+.e{
+    font-family: sans-serif;
+    margin: 16px;
+    font-size: 20px;
+    text-align: center;
+}
+.e h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 14px;
+}
+.e img{
+    
+    height: 129px;
+    display: block;
+    margin-left: 119px;
+    padding-top: 30px;
+}
+.e .b3{
+    padding-left: 55px;
+}
+.e .b4{
+   
+    padding-left: 43px;
+    padding-top: 24px;
+    width: 188.1px;
+    padding-bottom: 0px;
+    height: 158px;
+ 
+}
+.card3{
+    margin-top: 43px;
+}
+.last{
+    position: relative;
+    top: 1000px;
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    margin-bottom: 34px;
+    margin-top: 86px;
+    height: 260px;
+    background-color: lightgrey;
+}
+
+.a{
+    padding-top: 21px;
+    list-style: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 40px;
+    height: 100px;
+    
+
+}
+.fix{
+    height: 100%;
+    
+}
+.a li{
+    margin: 6px;
+}
